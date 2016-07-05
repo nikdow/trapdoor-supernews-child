@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 	<div id="primary" class="content-area column">
-		<div id="content" class="content-loop">
+		<div id="content" class="content-loop" role="main" <?php hybrid_attr( 'content' ); ?>>
 
 			<?php while ( have_posts() ) : the_post(); ?>
 
