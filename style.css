@@ -14,3 +14,15 @@
 #footer {
 	top: -75px;
 }
+.search-form {
+	border: none;
+	display: inline-block;
+	position: static;
+	/* top: 33px; */
+	/* right: 0; */
+	padding: 3px 0 0px 0px;
+	width: auto;
+	background: #fff;
+	/* z-index: 99; */
+	box-shadow: none;
+}
