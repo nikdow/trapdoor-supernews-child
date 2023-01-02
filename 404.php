@@ -22,7 +22,7 @@ get_header(); ?>
         </header><!-- .page-header -->
 
         <div class="page-content">
-          <p><?php esc_html_e( $isPrivate ? 'Please login at left to view this page' : 'It looks like nothing was found at this location. Maybe try one of the links below or a search?', 'supernews' ); ?></p>
+          <p><?php esc_html_e( $isPrivate ? 'Please login at left to view this page, or search for another page below' : 'It looks like nothing was found at this location. Maybe try one of the links at left or a search?', 'supernews' ); ?></p>
 
           <?php get_search_form(); ?>
 
