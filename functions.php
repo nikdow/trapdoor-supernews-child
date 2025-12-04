@@ -22,3 +22,7 @@ function supernews_child_theme_setup() {
 if ( ! current_user_can( 'manage_options' ) ) {
     show_admin_bar( false );
 }
+function cbdweb_deregister_scripts(){
+  wp_deregister_script('supernews-retina-js');
+}
+add_action( 'wp_enqueue_scripts', 'cbdweb_deregister_scripts', 99 );
